@@ -148,7 +148,7 @@ const gtagOptOut = () => {
     <p class="u-font-m u-font-m--paragraph">
       Zusätzlich oder als Alternative zum Browser-Add-On können Sie das Tracking durch Google Analytics auf unseren
       Seiten unterbinden, indem Sie
-      <a title="Google Analytics Opt-Out-Cookie setzen" @click="gtagOptOut()" href="#">diesen Link anklicken</a>. Dabei
+      <a title="Google Analytics Opt-Out-Cookie setzen" href="#" @click="gtagOptOut()">diesen Link anklicken</a>. Dabei
       wird ein Opt-out-Cookie auf Ihrem Gerät installiert. Damit wird die Erfassung durch Google Analytics für diese
       Website und für diesen Browser zukünftig verhindert, so lange das Cookie in Ihrem Browser installiert bleibt.
     </p>

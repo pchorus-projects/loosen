@@ -27,10 +27,10 @@ const sections: TextAndImageData[] = [
   <div>
     <h1 class="heading heading--xxl u-margin-top-l u-max-page-width">Ergänzende Angebote</h1>
     <section
-      class="section"
-      :class="{ 'section--alternate': index % 2 > 0 }"
       v-for="(section, index) in sections"
       :key="section.header"
+      class="section"
+      :class="{ 'section--alternate': index % 2 > 0 }"
     >
       <text-and-image class="u-max-page-width" :data="section" :is-alternate="index % 2 > 0" />
     </section>

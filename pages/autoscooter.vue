@@ -71,10 +71,10 @@ const sections: TextAndImageData[] = [
     </section>
 
     <section
-      class="section"
-      :class="{ 'section--alternate': index % 2 > 0 }"
       v-for="(section, index) in sections"
       :key="section.header"
+      class="section"
+      :class="{ 'section--alternate': index % 2 > 0 }"
     >
       <text-and-image class="u-max-page-width" :data="section" :is-alternate="index % 2 === 0" />
     </section>

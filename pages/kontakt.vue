@@ -3,7 +3,7 @@ useMeta('Kontakt');
 
 const onSubmit = (event: SubmitEvent) => {
   if (!(event.target instanceof HTMLFormElement)) {
-    throw Error('Kontakt form submit not possible');
+    throw new TypeError('Kontakt form submit not possible');
   }
 
   const isValid = event.target.checkValidity();
@@ -39,10 +39,10 @@ const onSubmit = (event: SubmitEvent) => {
       name="kontakt"
       method="POST"
       action="/nachricht-gesendet/"
-      @submit="onSubmit"
       novalidate
       data-netlify
       data-netlify-honeypot="bot-field"
+      @submit="onSubmit"
     >
       <input name="bot-field" hidden readonly />
       <input name="form-name" value="kontakt" hidden readonly />
