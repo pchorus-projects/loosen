@@ -5,14 +5,16 @@ useMeta('Home');
 </script>
 
 <template>
-  <div>
-    <section
-      v-for="(homeSection, index) in homeSections"
-      :key="homeSection"
-      class="section"
-      :class="{ 'section--alternate': index % 2 > 0 }"
-    >
-      <text-and-image class="u-max-page-width" :data="homeSection" :is-alternate="index % 2 > 0" />
-    </section>
-  </div>
+  <video autoplay playsinline muted loop class="hero-video">
+    <source src="~/assets/videos/oecherbend22.mp4" type="video/mp4" />
+  </video>
+
+  <section
+    v-for="(homeSection, index) in homeSections"
+    :key="homeSection"
+    class="section"
+    :class="{ 'section--alternate': index % 2 > 0 }"
+  >
+    <text-and-image class="u-max-page-width" :data="homeSection" :is-alternate="index % 2 > 0" />
+  </section>
 </template>

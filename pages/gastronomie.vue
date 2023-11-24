@@ -44,15 +44,17 @@ const sections: TextAndImageData[] = [
 </script>
 
 <template>
-  <div>
-    <h1 class="heading heading--xxl u-margin-top-l u-max-page-width">Gastronomie</h1>
-    <section
-      v-for="(section, index) in sections"
-      :key="section.header"
-      class="section"
-      :class="{ 'section--alternate': index % 2 > 0 }"
-    >
-      <text-and-image class="u-max-page-width" :data="section" :is-alternate="index % 2 > 0" />
-    </section>
-  </div>
+  <video autoplay playsinline muted loop class="hero-video">
+    <source src="~/assets/videos/weihnachtsmarkt.mp4" type="video/mp4" />
+  </video>
+
+  <h1 class="heading heading--xxl u-margin-top-l u-max-page-width">Gastronomie</h1>
+  <section
+    v-for="(section, index) in sections"
+    :key="section.header"
+    class="section"
+    :class="{ 'section--alternate': index % 2 > 0 }"
+  >
+    <text-and-image class="u-max-page-width" :data="section" :is-alternate="index % 2 > 0" />
+  </section>
 </template>

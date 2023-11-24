@@ -345,6 +345,12 @@ li {
   }
 }
 
+.hero-video {
+  object-fit: cover;
+  width: 100%;
+  max-height: 80vh;
+}
+
 @media (max-width: $max-width-mobile-landscape) {
   .u-text-columns {
     flex-direction: column;
