@@ -293,6 +293,10 @@ onMounted(() => {
 }
 
 @media (max-width: variables.$max-width-mobile-landscape) {
+  .header {
+    margin-bottom: variables.$space-xs;
+  }
+
   .header-button {
     padding: variables.$space-s;
 
