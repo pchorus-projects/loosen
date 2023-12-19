@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { TextAndImageData } from '~/types/text-and-image-data';
 
-useMeta('Gastronomie');
+useMeta(
+  'Gastronomie',
+  'Bratwurst, Schaschlik und Sauerkraut am Ardennen-Grill, vegetarische und vegane Imbiss-Spezialitäten und diverse Getränke am Ausschank "Zum Unterwirt".',
+);
 
 const sections: TextAndImageData[] = [
   {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useMeta('Impressum');
+useMeta('Impressum', 'Impressum des Schaustellerbetriebs Loosen');
 </script>
 
 <template>

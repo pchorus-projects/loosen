@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { homeSections } from '~/utils/constants';
 
-useMeta('Home');
+useMeta(
+  'Schaustellerbetrieb Loosen',
+  'Wir sind die Schaustellerfamilie Loosen aus Würselen bei Aachen. Mit unserem Autoscooter und diversen Gastronomiebetrieben sind wir auf Volksfesten in der Region vertreten.',
+);
 </script>
 
 <template>
