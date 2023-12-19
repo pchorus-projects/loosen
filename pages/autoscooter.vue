@@ -37,6 +37,8 @@ const sections: TextAndImageData[] = [
     <source src="~/assets/videos/as_krefeld.mp4" type="video/mp4" />
   </video>
 
+  <nuxt-img class="hero-image" src="/images/autoscooter/hero-image.jpg"></nuxt-img>
+
   <h1 class="heading heading--xxl u-margin-top-l u-max-page-width">Autoscooter</h1>
   <section class="section">
     <text-and-image class="u-max-page-width" :data="firstSection" :is-alternate="false" />
