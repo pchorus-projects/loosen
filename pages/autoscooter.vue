@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { TextAndImageData } from '~/types/text-and-image-data';
 
-useMeta('Autoscooter');
+useMeta('Autoscooter', 'Seit 1928 ist die Familie Loosen mit Ihrem Autoscooter auf Reisen.');
 
 const firstSection: TextAndImageData = {
   header: 'Der XXL-Autoscooter',
-  text: 'Seit 1928 ist die Familie Loosen mit Ihrem Autoscooter auf reisen. Der Loosen Autoscooter bietet Mehrwert in Form von größerer Fahrbahn, mehr Licht und konsequent über alle Seiten durchgestaltete Ornamente und Leuchtelemente. Ideal für eine Platzierung zwischen zwei Laufstraßen.',
+  text: 'Seit 1928 ist die Familie Loosen mit Ihrem Autoscooter auf Reisen. Der Loosen Autoscooter bietet Mehrwert in Form von größerer Fahrbahn, mehr Licht und konsequent über alle Seiten durchgestaltete Ornamente und Leuchtelemente. Ideal für eine Platzierung zwischen zwei Laufstraßen.',
   image: {
     altText: 'Autoscooter',
     path: '/images/autoscooter/autoscooter04.jpg',
@@ -36,6 +36,8 @@ const sections: TextAndImageData[] = [
   <video autoplay playsinline muted loop class="hero-video">
     <source src="~/assets/videos/as_krefeld.mp4" type="video/mp4" />
   </video>
+
+  <nuxt-img class="hero-image" src="/images/autoscooter/hero-image.jpg"></nuxt-img>
 
   <h1 class="heading heading--xxl u-margin-top-l u-max-page-width">Autoscooter</h1>
   <section class="section">

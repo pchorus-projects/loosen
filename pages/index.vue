@@ -1,13 +1,18 @@
 <script setup lang="ts">
 import { homeSections } from '~/utils/constants';
 
-useMeta('Home');
+useMeta(
+  'Schaustellerbetrieb Loosen',
+  'Wir sind die Schaustellerfamilie Loosen aus Würselen bei Aachen. Mit unserem Autoscooter und diversen Gastronomiebetrieben sind wir auf Volksfesten in der Region vertreten.',
+);
 </script>
 
 <template>
   <video autoplay playsinline muted loop class="hero-video">
     <source src="~/assets/videos/oecherbend22.mp4" type="video/mp4" />
   </video>
+
+  <nuxt-img class="hero-image" src="/images/home/hero-image.jpg"></nuxt-img>
 
   <section
     v-for="(homeSection, index) in homeSections"

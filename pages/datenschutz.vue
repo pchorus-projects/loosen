@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { STATISTICS_COOKIES_COOKIE_NAME } from '~/utils';
 
-useMeta('Impressum');
+useMeta('Datenschutz', 'Datenschutzerklärung des Schaustellerbetriebs Loosen');
 
 const gtagOptOut = () => {
   localStorage.setItem(STATISTICS_COOKIES_COOKIE_NAME, JSON.stringify({ isStatisticsCookiesAllowed: false }));

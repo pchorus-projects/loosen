@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { TextAndImageData } from '~/types/text-and-image-data';
 
-useMeta('Ergänzende Angebote');
+useMeta(
+  'Ergänzende Angebote',
+  'Die Bandbreite unseres Angebots auf Volksfesten wird durch die historische Kirmesorgel und das Greiferspiel "Las Vegas" ergänzt.',
+);
 
 const sections: TextAndImageData[] = [
   {

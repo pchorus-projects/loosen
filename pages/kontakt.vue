@@ -1,5 +1,5 @@
 <script setup lang="ts">
-useMeta('Kontakt');
+useMeta('Kontakt', 'Kontaktformular des Schaustellerbetriebs Loosen');
 
 const onSubmit = (event: SubmitEvent) => {
   if (!(event.target instanceof HTMLFormElement)) {

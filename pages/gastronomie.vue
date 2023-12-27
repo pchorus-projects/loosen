@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import { TextAndImageData } from '~/types/text-and-image-data';
 
-useMeta('Gastronomie');
+useMeta(
+  'Gastronomie',
+  'Bratwurst, Schaschlik und Sauerkraut am Ardennen-Grill, vegetarische und vegane Imbiss-Spezialitäten und diverse Getränke am Ausschank "Zum Unterwirt".',
+);
 
 const sections: TextAndImageData[] = [
   {
@@ -47,6 +50,8 @@ const sections: TextAndImageData[] = [
   <video autoplay playsinline muted loop class="hero-video">
     <source src="~/assets/videos/weihnachtsmarkt.mp4" type="video/mp4" />
   </video>
+
+  <nuxt-img class="hero-image" src="/images/gastronomie/hero-image.jpg"></nuxt-img>
 
   <h1 class="heading heading--xxl u-margin-top-l u-max-page-width">Gastronomie</h1>
   <section
