@@ -37,7 +37,11 @@ const sections: TextAndImageData[] = [
     <source src="~/assets/videos/as_krefeld.mp4" type="video/mp4" />
   </video>
 
-  <nuxt-img class="hero-image" src="/images/autoscooter/hero-image.jpg"></nuxt-img>
+  <nuxt-img
+    class="hero-image"
+    src="/images/autoscooter/hero-image.jpg"
+    alt="Leuchtendes Logo am Autoscooter Loosen"
+  ></nuxt-img>
 
   <h1 class="heading heading--xxl u-margin-top-l u-max-page-width">Autoscooter</h1>
   <section class="section">

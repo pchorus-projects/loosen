@@ -51,7 +51,11 @@ const sections: TextAndImageData[] = [
     <source src="~/assets/videos/weihnachtsmarkt.mp4" type="video/mp4" />
   </video>
 
-  <nuxt-img class="hero-image" src="/images/gastronomie/hero-image.jpg"></nuxt-img>
+  <nuxt-img
+    class="hero-image"
+    src="/images/gastronomie/hero-image.jpg"
+    alt="Ardennen-Grill auf dem Aachener Weihnachtsmarkt"
+  ></nuxt-img>
 
   <h1 class="heading heading--xxl u-margin-top-l u-max-page-width">Gastronomie</h1>
   <section
