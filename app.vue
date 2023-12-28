@@ -22,6 +22,10 @@ const navItems = [
     name: 'Kontakt',
     to: '/kontakt/',
   },
+  {
+    name: 'Medien',
+    to: '/medien/',
+  },
 ];
 
 const footerLinks = [
