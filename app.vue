@@ -341,6 +341,13 @@ onMounted(() => {
     &--visible {
       display: block;
     }
+
+    &__link {
+      &:hover,
+      &--active {
+        border-color: transparent;
+      }
+    }
   }
 }
 </style>
