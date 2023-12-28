@@ -12,7 +12,7 @@ useMeta(
     <source src="~/assets/videos/oecherbend22.mp4" type="video/mp4" />
   </video>
 
-  <nuxt-img class="hero-image" src="/images/home/hero-image.jpg"></nuxt-img>
+  <nuxt-img class="hero-image" src="/images/home/hero-image.jpg" alt="Autoscooter Loosen vor Riesenrad"></nuxt-img>
 
   <section
     v-for="(homeSection, index) in homeSections"
