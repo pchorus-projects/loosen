@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { TextAndImageData } from '~/types/text-and-image-data';
+import type { TextAndImageData } from '~/types/text-and-image-data';
 
 defineProps<{ data: TextAndImageData; isAlternate: boolean }>();
 </script>

@@ -13,17 +13,17 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/image-edge": "^1.0.0-rc.2-28252196.34e7c67",
+    "@nuxt/image": "^1.1.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "eslint": "^8.49.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-nuxt": "^4.0.0",
-    "nuxt": "^3.7.3",
-    "prettier": "^3.0.3",
-    "sass": "^1.67.0",
+    "nuxt": "^3.9.0",
+    "prettier": "^3.1.1",
+    "sass": "^1.69.6",
     "vue-gtag": "^2.0.1"
   },
   "dependencies": {
-    "@sentry/vue": "^7.72.0"
+    "@sentry/vue": "^7.91.0"
   }
 }
