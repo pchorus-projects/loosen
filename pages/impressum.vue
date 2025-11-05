@@ -13,7 +13,6 @@ useMeta('Impressum', 'Impressum des Schaustellerbetriebs Loosen');
       Peter Loosen GmbH<br />
       Morsbacher Str. 28<br />
       52146 Würselen<br />
-      Telefon: 0177 8616040<br />
       Email: <a href="mailto:peter-loosen@gmx.net">peter-loosen@gmx.net</a>
     </p>
 
